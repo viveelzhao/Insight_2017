@@ -6,7 +6,7 @@ The objective of this project therefore are two folders: first, I need to create
 
 The algorithm analyzes the words in the job title and job description in free text form, extracts skills and knowledge required , and measures the score for each skill. It maps every job to ONET(https://www.onetonline.org) occupation to get career cluster label. It'll search for the nearest job based on the skills and scores.
 
-To demonstrate the algorithm, I built www.skillessence.com where you can type in or paste a job desciption, then click analyze and see what you get. Please note, to protect proprietary job listings content for the consulting company that I worked with, only generic job titles from ONET are displayed.
+To demonstrate the algorithm, I built www.skillessence.com where you can type in or paste a job desciption, then click analyze for the results. Please note, to protect proprietary job listings content for the consulting company that I worked with, only generic job titles from ONET are displayed.
 
 
 
