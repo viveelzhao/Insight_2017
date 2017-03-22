@@ -7,27 +7,36 @@ input {margin-top:10px}
 
 .fa {font-size:30px;
      color:midnightblue;
+     display:inline-block;
      margin:5px}
 
-button .btn .btn-xs{margin-bottom:3px;
-                    background:grey;
-                    opacity:0.5;
-                    color:white}
+button .item-button{margin-bottom:3px;
+                    background-color: rgba(128,128,128,0.3);
+                    color:white;}
 
 
-.item-button {
+div.result-button {padding-left: 4px;
+                   padding-right: 4px;
+                  }
 
 
-            }
-
-
-.cluster-button {background-color: rgba(0,1,1,0.1);
-                opacity: 1;
+button.cluster-button {
+                background-color: rgba(214,233,198,0.7);
+                padding-left: 4px;
+                padding-right: 4px;
                 border: 0px;
-                color: black}
+                color: black
+                }
 
-.job-button {background-color: rgba(0,1,1,0.3);
-              opcacity: 1;
+button.job-button {
+              padding-left: 4px;
+              padding-right: 4px;
+              background:grey;
               border: 0px;
-              color: white;
+              color: black;
               }
+
+.icons {display:inline-block;
+        padding: 0px;}
+
+div.jumbotron {margin-top: 10px;}
